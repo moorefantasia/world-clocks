@@ -14,13 +14,14 @@
         World Clock
         </h1>
 
-        <select>
+        <select id="city">
             <option value="">Select a city</option>
-             <option value="">London</option>
-              <option value="">New York</option>
-               <option value="">Dallas</option>
+             <option value="Europe/London">London</option>
+              <option value="America/New_York">New York</option>
+               <option value="Pacific/Auckland">Auckland</option>
         </select>
         
+        <div id="cities">
         <div class="city" id="los-angeles">
             <div>
             <h2>Los Angeles 🇺🇸</h2>
@@ -35,6 +36,7 @@
             </div>
             <div class="time"></div>
         </div>
+    </div>
     </div>
     <footer>This Project was coded by <strong>Fantasia Moore</strong> and is <a href="https://github.com/moorefantasia/world-clocks" target="_blank">sourced on GitHub</a></a></footer>
     <script src="javascript/index.js"></script>
